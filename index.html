@@ -4,53 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <title>Live CSS Demo</title>
+    
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
     <style>
-        body {
-            /*In this demo there is a background image and we have attached the image "fixed" to the scroll bar*/
-            background-color: darkgreen;
-            background-image: url("sparkle.png");
-            background-repeat: no-repeat;
-            background-position: top left;
-            background-attachment: fixed;
-            /*Black text should show up*/
-            margin-left: 300px;
-            margin-right: 200px;
-            color: black;
-        }
-        /*The h1 has a background colour that is specified using rgb but also adds an alpha value
-            Set to point 0.9 the alpha is pretty much opaque. At 0.2 it would be nearly see through
-        */
-        h1{
-            text-align:center;
-            background-color:rgb(255 106 0 / 0.9);
-        }
-        /*Add a border around paragraphs*/
-        p{
-            border-style:solid;
-            border-width:10px;
-            border-bottom:dotted 2px;
-            padding:10px;
-        }
-        /*
-            There is now a class "secondp" which uses different border style
-            I put this on my second paragraph
-        */
-        .secondp {
-            border-style: solid;
-            border-width: 10px;
-            border-top: dotted 2px;
-        }
-        /*
-            If we specify an index that applies to a particular paragraph marker 
-            in this case called special
-        */
-        #special {
-            border-style: solid;
-            border-width: 10px;
-            border-color: blueviolet;
-            border-top: dotted 2px;
-
-        }
     </style>
 </head>
 <body>
